@@ -1,0 +1,104 @@
+.container {
+  width: 225px;
+  height: 300px;
+  background-color: #413c3c;
+  position: relative;
+}
+
+.rect {
+  height: 20px;
+  width: 110px;
+}
+
+.sq {
+  height: 20px;
+  width: 20px;
+}
+
+.green {
+  background-color: 7CD37C;
+  rotate: -45deg;
+  position: absolute;
+  top: 75px;
+  left: 11px;
+}
+.sq1 {
+  background-color: 93520D;
+  rotate: 45deg;
+  position: relative;
+  top: 29px;
+  left: 102px;
+}
+
+.orange {
+  background-color: DF5A02;
+  rotate: 45deg;
+  position: absolute;
+  top: 75px;
+  left: 103px;
+}
+
+.sq2 {
+  background-color: D07617;
+  rotate: 45deg;
+  position: relative;
+  top: 101px;
+  left: 194px;
+}
+
+.grey {
+  background-color: BBA698;
+  rotate: 135deg;
+  position: absolute;
+  top: 167px;
+  left: 103px;
+}
+
+.blue {
+  background-color: 3586D9;
+  rotate: -135deg;
+  position: absolute;
+  top: 167px;
+  left: 11px;
+}
+
+.sq3 {
+  background-color: 186F97;
+  rotate: 45deg;
+  position: relative;
+  top: 173px;
+  left: 102px;
+}
+
+.sq4 {
+  background-color: 55BC9B;
+  rotate: 45deg;
+  position: relative;
+  top: 61px;
+  left: 10px;
+}
+
+h3 {
+  position: absolute;
+  top: 100px;
+  left: 60px;
+  color: white;
+  font-family: Tahoma, Verdana, sans-serif;
+}
+
+.and {
+  color: orange;
+  margin: 0px;
+  padding: 0px;
+}
+
+.small {
+  position: absolute;
+  top: 140px;
+  left: 70px;
+  color: white;
+  font-family: Tahoma, Verdana, sans-serif;
+  font-size: 6px;
+  word-spacing: 0.5px;
+  letter-spacing: 0.5px;
+}

@@ -1,5 +1,6 @@
-const cities = ["Amsterdam", "Kiev", "Zurich", "Prague", "Berlin", "Barcelona"];
+const cities = ["Amsterdam", "Kiev", "Zurich", "Prague", "Berlin", "Barcelona"]; // stores the city visited
 
+//list of ticket available
 const tickets = {
   Paris: "Skopje",
   Zurich: "Amsterdam",
@@ -12,7 +13,10 @@ const tickets = {
   Berlin: "Amsterdam",
 };
 
+//contains all the visited cities
 const visited = ["Kiev"];
+
+//contains the route
 let ans = "";
 
 while (visited.length < cities.length) {
